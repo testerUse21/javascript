@@ -33,14 +33,11 @@ module.exports = {
     // require default case in switch statements
     // https://eslint.org/docs/rules/default-case
     'default-case': ['error', { commentPattern: '^no default$' }],
-
     // Enforce default clauses in switch statements to be last
     // https://eslint.org/docs/rules/default-case-last
     'default-case-last': 'error',
-
     // https://eslint.org/docs/rules/default-param-last
     'default-param-last': 'error',
-
     // encourages use of dot notation whenever possible
     // https://eslint.org/docs/rules/dot-notation
     'dot-notation': ['error', { allowKeywords: true }],
