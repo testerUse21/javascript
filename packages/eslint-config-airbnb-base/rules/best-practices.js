@@ -21,19 +21,15 @@ module.exports = {
     'class-methods-use-this': ['error', {
       exceptMethods: [],
     }],
-
     // require return statements to either always or never specify values
     // https://eslint.org/docs/rules/consistent-return
     'consistent-return': 'error',
-
     // specify curly brace conventions for all control statements
     // https://eslint.org/docs/rules/curly
     curly: ['error', 'multi-line'], // multiline
-
     // require default case in switch statements
     // https://eslint.org/docs/rules/default-case
     'default-case': ['error', { commentPattern: '^no default$' }],
-
     // Enforce default clauses in switch statements to be last
     // https://eslint.org/docs/rules/default-case-last
     'default-case-last': 'error',
